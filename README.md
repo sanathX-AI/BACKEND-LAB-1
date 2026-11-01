@@ -104,6 +104,7 @@ It listens on port 3000 and responds with a simple "Hello" message.
 
 ### 2. Home Page
 
+<img width="906" height="769" alt="image" src="https://github.com/user-attachments/assets/83d84621-c9d9-4634-98e9-64a6761775d2" />
 
 
 ### 3. About Page
