@@ -109,6 +109,7 @@ It listens on port 3000 and responds with a simple "Hello" message.
 
 ### 3. About Page
 
+<img width="845" height="568" alt="image" src="https://github.com/user-attachments/assets/73ec6bb4-bdf6-4a82-97ee-5eb80bfdde06" />
 
 
 ### 4. Time Page
