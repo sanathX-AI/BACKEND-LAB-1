@@ -100,7 +100,7 @@ It listens on port 3000 and responds with a simple "Hello" message.
 
 ### 1. Node.js HTTP Server
 
-![Node.js HTTP Server](screenshots/node-server.png)
+<img width="1848" height="1020" alt="home" src="https://github.com/user-attachments/assets/9d5b9ddd-e75d-4ae2-ba7b-50df0349cd4e" />
 
 ### 2. Home Page
 
