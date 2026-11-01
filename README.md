@@ -153,14 +153,6 @@ lab-01/
 - Handling HTTP status codes.
 - Implementing custom 404 error handling.
 
-## Viva Questions
-
-1. What is the difference between `package.json` and `node_modules`?
-2. What is the purpose of `app.listen()`?
-3. What do request and response represent in Node.js?
-4. What is the difference between Node.js HTTP and Express.js?
-5. What is an HTTP status code?
-6. What is the purpose of the HTTP GET method?
 
 ## Notes
 
