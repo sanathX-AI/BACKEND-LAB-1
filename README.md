@@ -2,11 +2,11 @@
 
 ## Student Details
 
-- **Name:** LATCHIPATRUNI CHARAN TEJA
-- **Registration Number:** 252U1R8045
-- **Section:** CSE(QE)-2B - 204
+- **Name:** K. SANATH KUMAR
+- **Registration Number:** 252U1R5070
+- **Section:** CSE(AIDE)-2A - 106
 
-**Deployed link:** https://backend-development-fundamentals-62ec.onrender.com
+**Deployed link:**
 
 ## Objective
 
