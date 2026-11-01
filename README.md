@@ -6,32 +6,47 @@
 - **Registration Number:** 252U1R5070
 - **Section:** CSE(AIDE)-2A - 106
 
-**Deployed link:**
-
+**Live Deployment Link:** https://backend-lab-1-4dvd.onrender.com
 ## Objective
 
-To create a basic HTTP server using Node.js and build a web server using Express.js with multiple routes and proper HTTP status codes.
+To set up a Node.js project and develop a basic HTTP server using the built-in HTTP module, followed by an Express.js server with multiple routes, request handling, and appropriate HTTP status codes.
 
 ## Technologies Used
 
 - Node.js
 - Express.js
 - JavaScript
+- HTTP Module
+- npm (Node Package Manager)
 - Visual Studio Code
 
 ## Installation and Setup
 
-1. Initialize the Node.js project:
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sanathX-AI/BACKEND-LAB-1.git
+   ```
+
+2. Navigate to the Lab 01 folder:
+
+   ```bash
+   cd BACKEND-LAB-1/lab-01
+   ```
+
+3. Initialize the Node.js project (if not already initialized):
 
    ```bash
    npm init -y
    ```
 
-2. Install Express:
+4. Install Express:
 
    ```bash
    npm install express
    ```
+
+5. Start the project using the commands below.
 
 ## How to Run
 
@@ -43,44 +58,132 @@ Run the following command:
 node plain-server.js
 ```
 
-### Express Server
+Open your browser and visit:
+
+`http://localhost:3000`
+
+### Express.js Server
 
 Run the following command:
 
 ```bash
 npm start
-# or
+```
+
+Or:
+
+```bash
 node app.js
 ```
 
+Open your browser and test the endpoints.
+
+**Environment Variables:** No environment variables are required for this lab.
+
 ## API Endpoints
 
-- **GET /** — Displays the welcome message.
-- **GET /about** — Returns student name and section as JSON.
-- **GET /time** — Returns the current date and time.
-- **GET /invalid** — Returns a 404 Page Not Found response.
+| Method | Endpoint | Description | Status Code |
+|---|---|---|---|
+| GET | `/` | Displays a welcome message. | 200 |
+| GET | `/about` | Returns student name and section in JSON format. | 200 |
+| GET | `/time` | Returns the current date and time using `new Date()`. | 200 |
+| GET | `/invalid` | Demonstrates a Page Not Found response. | 404 |
+| GET | Any unknown path | Returns a custom 404 error message. | 404 |
+
+## Plain Node.js Server
+
+The plain HTTP server is created using Node.js built-in `http` module and `http.createServer()`.
+
+It listens on port 3000 and responds with a simple "Hello" message.
 
 ## Screenshots
 
-### Home Page
+### 1. Node.js HTTP Server
 
-![Home Page](screenshots/home.png)
+![Node.js HTTP Server](screenshots/node-server.png)
 
-### About Page
+### 2. Home Page
 
-![About Page](screenshots/about.png)
 
-### Time Page
 
-![Time Page](screenshots/time.png)
+### 3. About Page
 
-### Not Found Page
 
-![Not Found Page](screenshots/invalid.png)
+
+### 4. Time Page
+
+<img width="1847" height="1013" alt="time" src="https://github.com/user-attachments/assets/48aeca07-e39c-4398-b33d-06a322b655a5" />
+
+### 5. 404 Not Found Page
+
+<img width="1847" height="1017" alt="404" src="https://github.com/user-attachments/assets/a7fbae40-3fe3-436e-a623-e08c95fbab2d" />
+
+
+## Project Structure
+
+```text
+lab-01/
+│
+├── app.js
+├── plain-server.js
+├── package.json
+├── package-lock.json
+├── .gitignore
+├── README.md
+│
+└── screenshots/
+    ├── node-server.png
+    ├── home.png
+    ├── about.png
+    ├── time.png
+    └── not-found.png
+```
+
+## Concepts Learned
+
+- Introduction to Node.js and backend development.
+- Initializing a Node.js project using npm.
+- Understanding `package.json` and `node_modules`.
+- Creating an HTTP server using the built-in HTTP module.
+- Installing and using Express.js.
+- Understanding HTTP requests and responses.
+- Implementing GET routes in Express.js.
+- Handling HTTP status codes.
+- Implementing custom 404 error handling.
+
+## Viva Questions
+
+1. What is the difference between `package.json` and `node_modules`?
+2. What is the purpose of `app.listen()`?
+3. What do request and response represent in Node.js?
+4. What is the difference between Node.js HTTP and Express.js?
+5. What is an HTTP status code?
+6. What is the purpose of the HTTP GET method?
 
 ## Notes
 
-- `package.json` contains project information and dependencies.
-- `node_modules` contains the installed packages.
-- The Node.js built-in `http` module is used for the plain server.
-- Express.js is used to handle routes and HTTP responses.
+- The `package.json` file contains project information, scripts, and dependencies.
+- The `node_modules` folder contains installed packages.
+- The built-in `http` module is used to create the plain Node.js server.
+- Express.js simplifies server creation and route handling.
+- Appropriate HTTP status codes are returned for successful and unsuccessful requests.
+- The `node_modules` folder and `.env` file should not be committed to GitHub.
+- Screenshots are stored in the `screenshots/` directory.
+
+## Problems Faced and Solutions
+
+- **Problem:** Understanding the difference between a plain Node.js server and an Express server.
+
+  **Solution:** Practised creating both servers separately and compared their implementation.
+
+- **Problem:** Handling invalid routes.
+
+  **Solution:** Implemented a custom 404 response for unknown paths.
+
+- **Problem:** Testing different API endpoints.
+
+  **Solution:** Opened each endpoint in the browser and verified its response and HTTP status code.
+
+---
+
+**Lab 01 Completed Successfully.**
