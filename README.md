@@ -1,4 +1,4 @@
-# Lab 03: Node.js and Express Server
+# Lab 01: Node.js and Express Server
 
 ## Student Details
 
