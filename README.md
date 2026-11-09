@@ -1,4 +1,4 @@
-# Lab 01: Node.js and Express Server
+# Lab 03: Node.js and Express Server
 
 ## Student Details
 
@@ -28,7 +28,7 @@ To set up a Node.js project and develop a basic HTTP server using the built-in H
    git clone https://github.com/sanathX-AI/BACKEND-LAB-1.git
    ```
 
-2. Navigate to the Lab 01 folder:
+2. Navigate to the Lab 03 folder:
 
    ```bash
    cd BACKEND-LAB-1/lab-01
